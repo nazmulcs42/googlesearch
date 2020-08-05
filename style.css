@@ -1,0 +1,291 @@
+
+        body {
+            max-width: 100%;
+            height: 100%;
+            border: 1px solid white;
+            margin: 0px;
+            border: none;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .header {
+            display: block;
+            margin: 0px;
+            padding: 10px 30px 10px 30px;
+            font-family: 'Times New Roman', serif, sans-serif;
+            font-size: 16px;
+            height: 40px;
+            min-width: 100%;
+            background-color: white;
+            position: fix;
+            box-sizing: border-box;
+        }
+
+        .header .left-sidebar {
+            float: left;
+            position: relative;
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        .header .right-sidebar {
+            float: right;
+            position: relative;
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        .header .right-sidebar .links{
+            float: left;
+            position: relative;
+            margin: 8px;
+            padding: 2px;
+
+        }
+        .header .right-sidebar .profile{
+            float: right;
+            position: relative;
+            margin: 0px;
+            padding: 0px;
+
+        }
+        .header .right-sidebar .profile:hover{
+            cursor: pointer;
+
+        }
+
+        .header ul li {
+
+            display: inline;
+            margin-right: 15px;
+            padding: 0px;
+
+
+        }
+
+        .header ul li a {
+
+            text-decoration: none;
+            list-style-type: none;
+            color: black;
+        }
+
+        .header ul li a:hover {
+            text-decoration: underline;
+        }
+
+        
+
+        .main {
+            border: none;
+            padding: 0px;
+            margin: 0px;
+            height: 515px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            position: relative;
+            /* border: 1px solid green;*/
+        }
+
+        .main .google-logo {
+            margin: 0px;
+            padding: 0px;
+            top: 100px;
+            left: 38%;
+            position: absolute;
+            z-index: 207;
+        }
+
+        .main .main_content{
+            margin: 0px;
+            padding: 0px;
+        }
+        
+
+
+        
+        .main .main_content .search-bar {
+            margin: 0px;
+            padding: 5px;
+            top: 230px;
+            left: 30%;
+            width: 490px;
+            border: 1px solid rgb(217, 223, 230);
+            border-radius: 30px;
+            display: inline;
+            /*background-image: url("images/google2.0.0.jpg");
+            background-position: left;
+            background-size: 15%;
+            background-repeat: no-repeat;*/
+            position: absolute;
+            box-sizing: border-box;
+        }
+        .main .main_content .search-bar img{
+            
+            width: 14px;
+            height: 14px;
+            margin: 0px;
+            padding: 0px;
+            margin: 0 5px;
+            border: none;
+           /* border: 1px solid green;*/
+        }
+        .main .main_content .search-bar input[type="text"]{
+            margin: 0px;
+            padding: 0px;
+            width: 345px;
+            height: 28px;
+            line-height: 28px;
+            margin-left: 10px;
+            /*border: 1px solid green;*/
+            border: none;
+            outline: none;
+        }
+
+
+        .main .main_content .search-bar:focus {
+            padding: 15px;
+            width: 490px;
+            outline: none;
+        }
+
+        .main .main_content .search-bar:hover {
+            box-shadow: 0px 0px 1px white;
+            z-index: 1;
+            transform: scale(1.02);
+            transition: .2s;
+        }
+
+        .main .main_content .google-search {
+            margin: 0px;
+            padding: 8px 5px;
+            top: 305px;
+            left: 38%;
+            width: 130px;
+            font-family: Arial, sans-serif;
+            font-size: 15px;
+            color: gray;
+            background-color: #ecedec;
+            border: 1px solid rgb(217, 223, 230);
+            position: absolute;
+        }
+
+        .main .main_content .google-search:hover {
+            box-shadow: 0px 0px 1px white;
+            z-index: 1;
+            border: 1px solid rgb(195, 198, 201);
+            transform: scale(1.011);
+            transition: .2s;
+        }
+
+        .main .main_content .google-search:focus {
+            box-shadow: 0px 0px 1px white;
+            z-index: 1;
+            outline: none;
+            border: 1px solid rgb(42, 113, 194);
+            transform: scale(1.011);
+            transition: .2s;
+        }
+
+        .main p {
+            margin: 0px;
+            padding: 8px 5px;
+            top: 365px;
+            left: 43%;
+            width: 250px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            background-color: white;
+            border: 1px solid rgb(217, 223, 230);
+            outline: none;
+            border: 0px;
+            position: absolute;
+        }
+
+        .main p a {
+            text-decoration: none;
+        }
+
+        .main p a:hover {
+            text-decoration: underline;
+        }
+
+
+
+        .footer {
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            background-color: #ecedec;
+            position: fix;
+
+        }
+
+        .footer-top {
+            display: block;
+            padding: 10px 10px 10px 30px;
+            height: 35px;
+            min-width: 100%;
+            color: gray;
+            box-sizing: border-box;
+            border-bottom: 1px solid rgb(217, 223, 230);
+
+
+        }
+
+
+        .footer-bottom {
+            display: block;
+            padding: 10px 30px 10px 30px;
+            height: 35px;
+            min-width: 100%;
+            box-sizing: border-box;
+
+        }
+
+        .footer-bottom .left-sidebar {
+            float: left;
+            position: relative;
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        .footer-bottom .right-sidebar {
+            float: right;
+            position: relative;
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        .footer-bottom ul li {
+
+            display: inline;
+            margin-right: 25px;
+            padding: 0px;
+
+
+        }
+
+        .footer-bottom .right-sidebar {
+
+            margin-right: -25px;
+
+
+        }
+
+        .footer-bottom ul li a {
+
+            text-decoration: none;
+            list-style-type: none;
+            color: gray;
+        }
+
+        .footer-bottom ul li a:hover {
+            text-decoration: underline;
+        }
